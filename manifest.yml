@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  name: aescto
+  disk_quota: 1024M
+  services:
+  - Conversation-ih
+  - availability-monitoring-auto
+  - AlchemyAPI-yt
+  env:
+    BOT_ID: U3XSXT080
+    SLACK_BOT_TOKEN: xoxb-133915918272-hUa8jkUnHKeA509HKpfswbpU
+    WORKSPACE_ID: 75a71af2-d65f-479a-bc11-04d61bde8253
+    ALCHEMY_API_KEY: 681ad56ed9c7bac79574402339efec2f000ab927
