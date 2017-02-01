@@ -9,7 +9,7 @@ applications:
   - availability-monitoring-auto
   - AlchemyAPI-yt
   env:
-    BOT_ID: U3XSXT080
+    BOT_ID: 
     SLACK_BOT_TOKEN: 
     WORKSPACE_ID: 
     ALCHEMY_API_KEY: 
